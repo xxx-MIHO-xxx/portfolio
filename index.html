@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>山田太郎のポートフォリオサイト</title>
-  <link rel="icon" href="favicon.png">
+  <title>My Work</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <img src="yamada.png" alt="太郎のアイコン" width="128" height="128">
-    <h1>山田太郎</h1>
-    <p>Webデザイナー見習いです</p>
-  </header>
-  <main>
-    <h2>WORKS</h2>
-    <section>
-      <img src="work-1.png" alt="すごいゲーム" width="400" height="210">
-      <h3>すごいゲーム</h3>
-      <p>すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。</p>
-    </section>
-    <section>
-      <img src="work-2.png" alt="すごいゲーム" width="400" height="210">
-      <h3>すごいゲーム</h3>
-      <p>すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。</p>
-    </section>
-    <section>
-      <img src="work-3.png" alt="すごいゲーム" width="400" height="210">
-      <h3>すごいゲーム</h3>
-      <p>すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。すごいゲームです。</p>
-    </section>
-  </main>
-  <footer>
-    <small>(c) dotinstall.com</small>
-    <address>
-      <a href="#" target="_blank"><img src="sns-1.png" alt="SNSアイコン" width="24" height="24"></a>
-      <a href="#" target="_blank"><img src="sns-2.png" alt="SNSアイコン" width="24" height="24"></a>
-    </address>
 
+<body>
+
+  <header>
+    <div class="header">
+      <div class="logo">
+        <h1>
+          <img src="logo.svg" alt="My Work">
+        </h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#works">Works</a></li>
+          <li> <a href="#news">News</a></li>
+          <li> <a href="#contact">Contact</a></li>
+          <li> <a href="#"><img src="icon-instagram.png" alt="インスタグタム" width="25" height="25"></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <img src="mainvisual-pc.jpg" alt="メインビジュアル" class="mainvisual">
+    <div class="About" id="about">
+      <h2>About</h2>
+      <p>Xxxxx Ashley</p>
+      <p>2th Floor XXXXX Building x-x-x Nishiazabu,<br>Minato-ku, Tokyo 106-0031 Japan<br>tel:
+        000-0000-0000<br>url:www.xxxxxx.jp<br>mail:xxx@xxxxxx.jp</p>
+      <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </div>
+    <div class="Works" id="works">
+      <h2>Works</h2>
+      <div class="works-img">
+        <img src="works1.jpg" alt="仕事画像" width="320" height="auto">
+        <img src="works2.jpg" alt="仕事画像" width="320" height="auto">
+        <img src="works3.jpg" alt="仕事画像" width="320" height="auto">
+        <img src="works4.jpg" alt="仕事画像" width="320" height="auto">
+        <img src="works5.jpg" alt="仕事画像" width="320" height="auto">
+        <img src="works6.jpg" alt="仕事画像" width="320" height="auto">
+      </div>
+    </div>
+    <div class="News" id="news">
+      <h2>News</h2>
+      <ul>
+        <li>
+          <p>2020.XX.XX</p>
+          <p>デザイン雑誌「ＸＸＸＸＸＸ Vol.11」に掲載していただきました。</p>
+        </li>
+        <li>
+          <p>2020.XX.XX</p>
+          <p>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</p>
+        </li>
+        <li>
+          <p>2019.XX.XX</p>
+          <p>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li>
+          <p>2019.XX.XX</p>
+          <p>デザイン雑誌「ＸＸＸＸＸＸ Vol.10」に掲載していただきました。</p>
+        </li>
+        <li>
+          <p>2019.XX.XX</p>
+          <p>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</p>
+        </li>
+      </ul>
+    </div>
+    <div class="Contact" id="contact">
+      <h2>Contact</h2>
+      <div class="text-box">
+        <p>NAME</p>
+        <input type="text" name="name">
+      </div>
+      <div class="text-box">
+        <p>E-mail</p>
+        <input type="text" name="E-mail">
+      </div>
+      <div class="text-box">
+        <p>MESSAGE</p>
+        <textarea name="MESSAGE" rows="10"></textarea>
+      </div>
+      <a href="#" class="button">送信</a>
+
+    </div>
+  </main>
+
+  <footer>
+    <small>©2020 My Work</small>
   </footer>
-  
+
 </body>
+
 </html>
